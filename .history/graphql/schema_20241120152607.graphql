@@ -1,8 +1,3 @@
-type Query {
-    posts: [Post!]! @all
-    post(id: Int! @eq): Post @find
-}
-
 type User {
     id: ID!
     name: String!
